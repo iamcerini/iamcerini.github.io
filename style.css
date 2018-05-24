@@ -1,0 +1,407 @@
+/*********************************/
+
+/*VARIABLES*/
+
+/*********************************/
+
+:root {
+    --color-1: #002D47;
+    --color-2: #6FA5FC;
+    --color-3: #CF0;
+    --color-4: rgba(43, 43, 43, .9);
+    --color-5: #f8f8f8;
+    --color-white: #FFF;
+    --color-black: #000;
+    --font-1: #222222;
+    --font-2: #CCCCCC;
+}
+
+
+/*********************************/
+
+/*FONTS*/
+
+/*********************************/
+
+@font-face {
+    font-family: 'Gotham';
+    src: url("assets/fonts/GothamBookRegular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Bembo';
+    src: url("assets/fonts/Bembo.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Bembo';
+    src: url("assets/fonts/BemboItalic.otf") format("truetype");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url("assets/fonts/DidotRegular.ttf") format("truetype");
+}
+
+
+/*********************************/
+
+/*FONT STYLES*/
+
+/*********************************/
+
+h3 {
+    font-family: "Bembo" !important;
+    font-style: italic;
+}
+
+body,
+.resume a,
+.fixed h3,
+.fixed a,
+.eapps-instagram-feed-popup-item-date,
+.eapps-instagram-feed-posts-item-user-follow-link {
+    font-family: "Gotham" !important;
+    font-style: normal;
+}
+
+.main-font,
+p,
+.menu-ul a {
+    font-family: 'Bembo' !important;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Didot'!important;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 64px;
+}
+
+.fixed h1 {
+    font-size: 78px;
+}
+
+h2,
+.item-link-text,
+.eapps-instagram-feed-posts-item-user-follow-link {
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 2em;
+    letter-spacing: 6px;
+    text-align: center;
+    /*    text-decoration: underline;*/
+}
+
+h3 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+}
+
+.fixed h3 {
+    font-size: 12pt;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.modal h3 {
+    margin-bottom: 16px;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 10pt;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    margin-bottom: 16px;
+}
+
+h5 {
+    font-size: 10pt;
+    letter-spacing: 2px;
+}
+
+h6 {
+    font-size: 10pt;
+}
+
+p,
+a,
+.eapps-instagram-feed-popup-item-text,
+.eapps-instagram-feed-posts-item-text,
+.main-font {
+    font-size: 18px !important;
+    line-height: 1.4em !important;
+    text-align: justify;
+}
+
+
+/*!Needs to be changed when font size changes for fixed */
+
+.inner {
+    margin-top: 14em;
+}
+
+.menu-ul {
+    font-size: 1.2em;
+}
+
+
+/*********************************/
+
+/*COLORS*/
+
+/*********************************/
+
+body {
+    color: var(--font-1);
+    background-color: var(--color-white);
+}
+
+.inner {
+    background-color: var(--color-white);
+}
+
+.content-gallery {
+    background-color: var(--color-white);
+}
+
+.fixed {
+    background-color: var(--color-5);
+}
+
+.footer {
+    color: var(--font-1);
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+    color: var(--font-1);
+}
+
+.fixed h5 {
+    color: var(--font-2);
+}
+
+a.nav-active {
+    color: var(--font-1);
+}
+
+a.nav-inactive {
+    color: var(--font-2);
+}
+
+a.bright-text {
+    color: var(--font-1);
+}
+
+
+/*********************************/
+
+/*DECORATION & BORDERS*/
+
+/*********************************/
+
+h1 {
+    text-shadow: -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+
+ul.ul-details li:before {
+    content: "◾";
+    color: var(--font-2);
+}
+
+li.menu-li {
+    border-right: 1px solid var(--font-2);
+    color: var(--font-2);
+}
+
+li:last-child.menu-li {
+    border-right: none;
+}
+
+a.nav-active {
+    color: var(--font-1);
+}
+
+a.bright-text {
+    /*    text-decoration: underline;*/
+    text-transform: uppercase;
+    color: var(--font-2);
+}
+
+a:hover {
+    color: var(--font-1);
+}
+
+
+/*********************************/
+
+/*STYLE CLASSES*/
+
+/*********************************/
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block !important;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.transform-default {
+    text-transform: none !important;
+    letter-spacing: .15em;
+}
+
+.hoverable {
+    cursor: pointer;
+}
+
+.hr {
+    display: inline-block;
+    border-bottom: 1px solid;
+    margin: 0 1rem;
+}
+
+.post-inner {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+}
+
+.post-content {
+    border-top: 1px solid var(--font-2);
+    margin-top: 32px;
+    padding-top: 32px;
+    clear: both;
+    overflow: auto;
+}
+
+.post-content-inner {
+    margin: 0 auto;
+    width: 64%;
+    text-align: center;
+    color: var(--font-1);
+}
+
+.sLinks a {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.sLinks a:first-child {
+    padding-left: 0;
+}
+
+.sLinks a:last-child {
+    padding-right: 0;
+}
+
+.eapps-instagram-feed-posts-grid-load-more {
+    border-radius: 0 !important;
+    width: auto !important;
+    height: auto !important;
+
+
+}
+
+.eapps-instagram-feed-posts-grid-load-more-text {
+    background-color: white;
+    color: var(--font-1);
+    font-family: "Gotham";
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 2em;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.eapps-instagram-feed-posts-grid-load-more-text:hover {
+    text-decoration: underline !important;
+}
+
+
+.item-link > a > svg {
+  fill: var(--font-1);
+}
+
+
+/*********************************/
+
+/* FOOTER LOGO*/
+
+/*********************************/
+
+.footer-inner .hr {
+    width: 45%;
+    color: var(--font-2);
+    border-color: var(--font-2);
+}
+
+
+@media screen and (max-width: 900px) {
+    .footer-inner .hr {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 433px) {
+    .footer-inner .hr {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .footer-inner .hr,
+        {
+        display: none;
+    }
+}
+
+.footer-logo {
+    font-family: Verdana, sans-serif;
+    font-size: 1rem;
+    border: 3px solid;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.footer-text {
+    font-family: "Bembo";
+    font-size: 0.75rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    letter-spacing: 0.125rem;
+    margin-bottom: 40px;
+}

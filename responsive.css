@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1024px) {
+    h1,
+    .fixed h1 {
+        font-size: 56px;
+    }
+    .fixed h3 {
+        font-size: 11pt;
+    }
+    .inner {
+        margin-top: 12em;
+    }
+    .project-feed-posts-item {
+        width: calc(50% - 50px);
+        margin: 25px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    h1,
+    .fixed h1 {
+        font-size: 42px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .menu-ul {
+        font-size: 1.05em;
+        /*        padding-right: 5px;*/
+    }
+    .container {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    .inner {
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 10em;
+        /*
+        margin-left: 0;
+        margin-right: 0;
+*/
+    }
+        .project-feed {
+/*        padding-top: 1em;*/
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .modal {
+        top: 56px;
+    }
+    .modal-mobile-panel {
+        display: flex;
+    }
+    .pu-close {
+        opacity: 1;
+        left: 12px;
+        top: 14px;
+        margin: 0;
+    }
+    .pu-close::before,
+    .pu-close::after {
+        background: #000;
+    }
+    .pu-scroll-indicator {
+        display: none;
+    }
+    .project-feed-posts-item {
+        width: calc(100% - 50px);
+        margin: 25px;
+    }
+
+    .project-feed {
+/*        padding-top: 2em;*/
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "images": [
+        {
+            "file": "epogee_square.jpg"
+            , "caption": "Image 1 Caption"
+            , "orientation": "tile"
+  }
+        , {
+            "file": "incidence_square.jpg"
+            , "caption": "Image 2 Caption
+            , "orientation": "tile"
+  }
+        , {
+            "file": "zygiprime_square.jpg"
+            , "caption": "Image 2 Caption"
+            , "orientation": "tile"
+  }
+  ]
+}
