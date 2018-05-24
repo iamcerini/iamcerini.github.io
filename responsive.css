@@ -80,33 +80,10 @@
 }
 
 
-@media only screen and (max-width: 370px) {
-    .modal {
-        top: 56px;
-    }
-    .modal-mobile-panel {
-        display: flex;
-    }
-    .pu-close {
-        opacity: 1;
-        left: 12px;
-        top: 14px;
-        margin: 0;
-    }
-    .pu-close::before,
-    .pu-close::after {
-        background: #000;
-    }
-    .pu-scroll-indicator {
-        display: none;
-    }
-    .project-feed-posts-item {
-        width: calc(100% - 50px);
-        margin: 25px;
-    }
+@media only screen and (max-width: 720px) {
 
     .inner {
-        margin-top: 10em;
+        margin-top: 11em;
     }
     
     .menu-ul {
@@ -114,7 +91,15 @@
         /*        padding-right: 5px;*/
     }
     
-    h1, .fixed h1{
+    p, a, .eapps-instagram-feed-popup-item-text, .eapps-instagram-feed-posts-item-text, .main-font {
+    font-size: 16px !important;
+    }
+}
+
+
+@media only screen and (max-width: 540px) {
+        h1, .fixed h1{
         font-size: 34px;
     }
 }
+
