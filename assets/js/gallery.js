@@ -226,6 +226,33 @@ var data = [
         "Filter": "ph"
     },
     {
+        "File": "Horse.jpg",
+        "Title": "Horse",
+        "Caption": "Featured in Long Island’s Best: Young Artists at The Heckscher Museum 2013. Received Achievement Award in Digital Media and Renzo S. Bianchi Scholarship Award.",
+        "Orientation": "square",
+        "Year": "2013",
+        "Filter": "di"
+
+    },
+    {
+        "File": "PhoenixWrithing.jpg",
+        "Title": "Phoenix Writhing",
+        "Caption": "",
+        "Orientation": "square",
+        "Year": "2013",
+        "Filter": "di"
+
+    },
+    {
+        "File": "Depths.jpg",
+        "Title": "Depths",
+        "Caption": "",
+        "Orientation": "square",
+        "Year": "2012",
+        "Filter": "di"
+
+    },
+    {
         "File": "Komainu.png",
         "Title": "Komainu",
         "Caption": "",
@@ -285,33 +312,6 @@ var data = [
         "Caption": "",
         "Orientation": "square",
         "Year": "2018",
-        "Filter": "di"
-
-    },
-    {
-        "File": "Horse.jpg",
-        "Title": "Horse",
-        "Caption": "Featured in Long Island’s Best: Young Artists at The Heckscher Museum 2013. Received Achievement Award in Digital Media and Renzo S. Bianchi Scholarship Award.",
-        "Orientation": "square",
-        "Year": "2013",
-        "Filter": "di"
-
-    },
-    {
-        "File": "PhoenixWrithing.jpg",
-        "Title": "Phoenix Writhing",
-        "Caption": "",
-        "Orientation": "square",
-        "Year": "2013",
-        "Filter": "di"
-
-    },
-    {
-        "File": "Depths.jpg",
-        "Title": "Depths",
-        "Caption": "",
-        "Orientation": "square",
-        "Year": "2012",
         "Filter": "di"
 
     },
