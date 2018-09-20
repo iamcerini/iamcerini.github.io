@@ -277,6 +277,10 @@ a:hover {
     text-align: left;
 }
 
+.right {
+    text-align: right;
+}
+
 .transform-default {
     text-transform: none !important;
     letter-spacing: .15em;
