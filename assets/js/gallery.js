@@ -403,13 +403,13 @@ $(document).ready(function () {
     $('#ModalGalleryBody').append(gallery);
 
     // SET DEFAULTS
-    $('.project-feed-posts-item').each(function (index) {
+    $('#GalleryFeed .project-feed-posts-item').each(function (index) {
         if (!$(this).hasClass('pm')) {
             $(this).hide();
         }
     });
 
-    $('.modal-section').each(function (index) {
+    $('#GalleryFeed .modal-section').each(function (index) {
         if ($(this).hasClass('pm')) {
             $(this).show();
         } else {
@@ -425,7 +425,7 @@ $(function () {
     // Change page when navigating menu
     $("#FilterGallery a").click(function () {
         filter = $(this).data("page");
-        $('.project-feed-posts-item').each(function (index) {
+        $('#GalleryFeed .project-feed-posts-item').each(function (index) {
             if ($(this).hasClass(filter)) {
                 $(this).fadeIn("slow");
             } else {

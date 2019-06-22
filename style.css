@@ -84,7 +84,7 @@ h1 {
 }
 
 .fixed h1 {
-    font-size: 78px;
+    font-size: 48px;
 }
 
 h2,
@@ -145,7 +145,7 @@ a,
 /*!Needs to be changed when font size changes for fixed */
 
 .inner {
-    margin-top: 14em;
+    margin-top: 12em;
 }
 
 .menu-ul {
